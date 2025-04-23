@@ -60,9 +60,9 @@ const Home = () => {
         {/* Right Section */}
         <div className="order-1 lg:order-2 flex justify-end items-center">
           <img
-            className="w-[85%] rounded-[50px]"
-            src="/picture.PNG"
-            alt="My-Pic"
+              className="w-[85%] rounded-[50px]" 
+              src="https://sanjeeviram-07.github.io/Portfolio/picture.PNG" 
+              alt="My-Pic"
           />
         </div>
       </div>
