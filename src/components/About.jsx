@@ -12,17 +12,13 @@ import {
 import {
   SiTailwindcss,
   SiBootstrap,
-  SiExpress,
-  SiNextdotjs,
   SiNetlify,
   SiMongodb,
-  SiSocketdotio,
-  SiPostman,
-  SiGraphql,
-  SiRedux,
-  SiJsonwebtokens,
-  SiRender,
-} from "react-icons/si";
+  SiKubernetes,
+  SiDocker,
+  SiJenkins,
+  SiAnsible,
+} from 'react-icons/si';
 import { TbBrandFramerMotion } from "react-icons/tb";
 import { DiVisualstudio } from "react-icons/di";
 import { IoLogoNpm, IoLogoVercel } from "react-icons/io5";
@@ -82,24 +78,24 @@ const About = () => {
               <span className="font-bold">React.js</span>
             </div>
             <div className="flex flex-col items-center space-y-2">
-              <FaNode size={40} className="text-[#68a063]" />
-              <span className="font-bold">Node.js</span>
-            </div>
-            <div className="flex flex-col items-center space-y-2">
-              <SiExpress size={40} className="text-[#000000]" />
-              <span className="font-bold">Express.js</span>
-            </div>
-            <div className="flex flex-col items-center space-y-2">
-              <SiMongodb size={40} className="text-[#47a248]" />
+              <SiMongodb size={40} className="text-[#68a063]" />
               <span className="font-bold">MongoDB</span>
             </div>
             <div className="flex flex-col items-center space-y-2">
-              <SiNextdotjs size={40} className="text-black" />
-              <span className="font-bold">Next.js</span>
+              <SiDocker size={40} className="text-[#000000]" />
+              <span className="font-bold">Docker</span>
             </div>
             <div className="flex flex-col items-center space-y-2">
-              <SiSocketdotio size={40} className="text-[#010101]" />
-              <span className="font-bold">Socket.IO</span>
+              <SiKubernetes size={40} className="text-[#47a248]" />
+              <span className="font-bold">Kubernetes</span>
+            </div>
+            <div className="flex flex-col items-center space-y-2">
+              <SiAnsible size={40} className="text-black" />
+              <span className="font-bold">Ansible</span>
+            </div>
+            <div className="flex flex-col items-center space-y-2">
+              <SiJenkins size={40} className="text-[#010101]" />
+              <span className="font-bold">Jenkins</span>
             </div>
             <div className="flex flex-col items-center space-y-2">
               <FaGitAlt size={40} className="text-[#f05032]" />
